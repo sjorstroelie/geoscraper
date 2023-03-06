@@ -186,7 +186,6 @@ all_challenges <- lapply(1:nrow(geoguessr_challenges),function(i){
   
 
   #table_vector
-  #Convert vector to matrix with 7 columnss
   #-trim the first 6 indices (round names) & trim last index "CHALLENGE A FRIEND" 
   table_vector <- table_vector[7:(length(table_vector)-1)]
 
